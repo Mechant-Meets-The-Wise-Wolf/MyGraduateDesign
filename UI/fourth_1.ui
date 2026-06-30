@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Input_Fourth_1_dialog_UI</class>
+ <widget class="QWidget" name="Input_Fourth_1_dialog_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>609</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="CardWidget" name="CardWidget_212">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>591</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_153">
+    <item row="0" column="0">
+     <widget class="SubtitleLabel" name="SubtitleLabel_1024">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>第一道活塞环松弛迭代系数omega_1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="SubtitleLabel" name="SubtitleLabel_1026">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>第二道活塞环松弛迭代系数omega_2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="StrongBodyLabel" name="StrongBodyLabel_43">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>第三道活塞环载荷平衡迭代精度err_FRW_limit_3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="StrongBodyLabel" name="StrongBodyLabel_47">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>第二道活塞环油膜压力迭代精度err_poil_limit_2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="StrongBodyLabel" name="StrongBodyLabel_44">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>第三道活塞环油膜压力迭代精度err_poil_limit_3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="StrongBodyLabel" name="StrongBodyLabel_45">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>第一道活塞环油膜压力迭代精度err_poil_limit_1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="StrongBodyLabel" name="StrongBodyLabel_46">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>第二道活塞环载荷平衡迭代精度err_FRW_limit_2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="SubtitleLabel" name="SubtitleLabel_1027">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>第三道活塞环松弛迭代系数omega_3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="StrongBodyLabel" name="StrongBodyLabel_42">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>第一道活塞环载荷平衡迭代精度err_FRW_limit_1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="LineEdit" name="LineEdit"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="LineEdit" name="LineEdit_2"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="LineEdit" name="LineEdit_3"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="LineEdit" name="LineEdit_4"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="LineEdit" name="LineEdit_5"/>
+    </item>
+    <item row="7" column="1">
+     <widget class="LineEdit" name="LineEdit_6"/>
+    </item>
+    <item row="8" column="1">
+     <widget class="LineEdit" name="LineEdit_7"/>
+    </item>
+    <item row="9" column="1">
+     <widget class="LineEdit" name="LineEdit_8"/>
+    </item>
+    <item row="13" column="1">
+     <widget class="LineEdit" name="LineEdit_9"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CardWidget</class>
+   <extends>QFrame</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StrongBodyLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>SubtitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

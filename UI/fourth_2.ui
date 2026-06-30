@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Input_Fourth_2_dialog_UI</class>
+ <widget class="QWidget" name="Input_Fourth_2_dialog_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>511</width>
+    <height>279</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="CardWidget" name="CardWidget_208">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>491</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_151">
+    <item row="1" column="0">
+     <widget class="SubtitleLabel" name="SubtitleLabel_1011">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>周期循环限定次数cyc_number</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="SubtitleLabel" name="SubtitleLabel_1008">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>周期循环收敛精度cyc_imit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="LineEdit" name="LineEdit"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="LineEdit" name="LineEdit_2"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CardWidget</class>
+   <extends>QFrame</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SubtitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

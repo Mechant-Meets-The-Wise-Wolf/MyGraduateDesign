@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Visualization_UI</class>
+ <widget class="QWidget" name="Visualization_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>881</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>1391</width>
+     <height>861</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="ElevatedCardWidget" name="ElevatedCardWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>281</width>
+       <height>82</height>
+      </rect>
+     </property>
+     <widget class="IconWidget" name="IconWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>60</width>
+        <height>60</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>20</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>结果可视化模块</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="ElevatedCardWidget" name="ElevatedCardWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>451</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <widget class="IconWidget" name="IconWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="TitleLabel" name="TitleLabel">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>30</y>
+        <width>311</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>选取结果文件</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="ElevatedCardWidget" name="ElevatedCardWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>451</width>
+       <height>631</height>
+      </rect>
+     </property>
+     <widget class="TableWidget" name="TableWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>411</width>
+        <height>231</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>20</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>301</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>选择最近保存的结果</string>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>420</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_3">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>420</y>
+        <width>301</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>手动导入一个文件</string>
+      </property>
+     </widget>
+     <widget class="PrimaryPushButton" name="PrimaryPushButton">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>330</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>选择该结果</string>
+      </property>
+      <property name="hasIcon" stdset="0">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="PrimaryPushButton" name="PrimaryPushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>490</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>选择一个文件</string>
+      </property>
+      <property name="hasIcon" stdset="0">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="ElevatedCardWidget" name="ElevatedCardWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>210</y>
+       <width>451</width>
+       <height>631</height>
+      </rect>
+     </property>
+     <widget class="IconWidget" name="IconWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>20</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_4">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>301</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>结果选取状态</string>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>70</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="TitleLabel" name="TitleLabel_3">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>70</y>
+        <width>261</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>未选取计算结果</string>
+      </property>
+     </widget>
+     <widget class="PrimaryPushButton" name="PrimaryPushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>120</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>丢弃该次计算结果</string>
+      </property>
+      <property name="hasIcon" stdset="0">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_8">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>290</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_5">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>290</y>
+        <width>301</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>结果可视化模块</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>180</y>
+        <width>381</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>这里填写结果信息</string>
+      </property>
+     </widget>
+     <widget class="StrongBodyLabel" name="StrongBodyLabel">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>230</y>
+        <width>401</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Strong body label</string>
+      </property>
+     </widget>
+     <widget class="PrimaryPushButton" name="PrimaryPushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>350</y>
+        <width>341</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>点击开始结果可视化！</string>
+      </property>
+      <property name="hasIcon" stdset="0">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_9">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>470</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="TitleLabel" name="TitleLabel_4">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>470</y>
+        <width>261</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>可视化已生成！</string>
+      </property>
+     </widget>
+     <widget class="PrimaryPushButton" name="PrimaryPushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>520</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>丢弃该次可视化结果</string>
+      </property>
+      <property name="hasIcon" stdset="0">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="ElevatedCardWidget" name="ElevatedCardWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>100</y>
+       <width>451</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <widget class="IconWidget" name="IconWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="TitleLabel" name="TitleLabel_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>30</y>
+        <width>311</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>结果可视化</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="TextEdit" name="TextEdit">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>10</y>
+       <width>891</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI','Microsoft YaHei','PingFang SC','SimSun'; font-size:14px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;输入结果JSON文件&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;然后开始可视化吧！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="ElevatedCardWidget" name="ElevatedCardWidget_6">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>100</y>
+       <width>451</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <widget class="IconWidget" name="IconWidget_10">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="TitleLabel" name="TitleLabel_5">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>30</y>
+        <width>311</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>浏览可视化结果</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="ElevatedCardWidget" name="ElevatedCardWidget_7">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>210</y>
+       <width>451</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <widget class="IconWidget" name="IconWidget_11">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="PrimaryPushButton" name="PrimaryPushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>40</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>点击开始浏览曲线！</string>
+      </property>
+      <property name="hasIcon" stdset="0">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="ElevatedCardWidget" name="ElevatedCardWidget_8">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>350</y>
+       <width>451</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <widget class="IconWidget" name="IconWidget_12">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="TitleLabel" name="TitleLabel_6">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>30</y>
+        <width>311</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>可视化结果信息处理</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="ElevatedCardWidget" name="ElevatedCardWidget_9">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>457</y>
+       <width>451</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <widget class="IconWidget" name="IconWidget_13">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_14">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_15">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_16">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_17">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_18">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_19">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>260</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="IconWidget" name="IconWidget_20">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>300</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_7">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>20</y>
+        <width>161</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>结果的id</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_91">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>20</y>
+        <width>201</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Subtitle label</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_9">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>60</y>
+        <width>161</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>结果的命名</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_92">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>60</y>
+        <width>201</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Subtitle label</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_11">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>100</y>
+        <width>161</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>该次可视化用户</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_93">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>100</y>
+        <width>201</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Subtitle label</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_13">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>140</y>
+        <width>161</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>该次可视化ID</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_94">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>140</y>
+        <width>201</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Subtitle label</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_15">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>180</y>
+        <width>161</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>命名该次可视化</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_95">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>180</y>
+        <width>201</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Subtitle label</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_17">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>220</y>
+        <width>161</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>可视化创建时间</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_96">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>220</y>
+        <width>201</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Subtitle label</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_19">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>260</y>
+        <width>161</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>备注此次可视化</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_97">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>260</y>
+        <width>201</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Subtitle label</string>
+      </property>
+     </widget>
+     <widget class="SubtitleLabel" name="SubtitleLabel_21">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>300</y>
+        <width>161</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>存放路径</string>
+      </property>
+     </widget>
+     <widget class="PrimaryPushButton" name="PrimaryPushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>340</y>
+        <width>181</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>修改可视化信息</string>
+      </property>
+      <property name="hasIcon" stdset="0">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="PrimaryPushButton" name="PrimaryPushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>340</y>
+        <width>181</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>保存该次可视化</string>
+      </property>
+      <property name="hasIcon" stdset="0">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="CaptionLabel" name="CaptionLabe_98">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>305</y>
+        <width>261</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Caption label</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="PrimaryPushButton" name="PrimaryPushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>1200</x>
+       <y>20</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>转到数据管理页面</string>
+     </property>
+     <property name="hasIcon" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="Pivot" name="Pivot">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>1361</width>
+       <height>45</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="PrimaryPushButton" name="PrimaryPushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>71</width>
+       <height>771</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>上一页</string>
+     </property>
+    </widget>
+    <widget class="PrimaryPushButton" name="PrimaryPushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>1310</x>
+       <y>70</y>
+       <width>71</width>
+       <height>771</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>上一页</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>70</y>
+       <width>1201</width>
+       <height>771</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>8</number>
+     </property>
+     <widget class="QWidget" name="vpage1">
+      <widget class="QFrame" name="frame">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>730</y>
+         <width>1201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="PrimaryPushButton" name="PrimaryPushButton_8">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>0</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回首页</string>
+        </property>
+        <property name="hasIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="vpage2">
+      <widget class="QFrame" name="frame_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>730</y>
+         <width>1201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="PrimaryPushButton" name="PrimaryPushButton_13">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>0</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回首页</string>
+        </property>
+        <property name="hasIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="vpage3">
+      <widget class="QFrame" name="frame_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>730</y>
+         <width>1201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="PrimaryPushButton" name="PrimaryPushButton_14">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>0</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回首页</string>
+        </property>
+        <property name="hasIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_6">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="vpage4">
+      <widget class="QFrame" name="frame_8">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_7">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>730</y>
+         <width>1201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="PrimaryPushButton" name="PrimaryPushButton_15">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>0</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回首页</string>
+        </property>
+        <property name="hasIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="vpage5">
+      <widget class="QFrame" name="frame_10">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_9">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>730</y>
+         <width>1201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="PrimaryPushButton" name="PrimaryPushButton_16">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>0</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回首页</string>
+        </property>
+        <property name="hasIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="vpage6">
+      <widget class="QFrame" name="frame_12">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_11">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>730</y>
+         <width>1201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="PrimaryPushButton" name="PrimaryPushButton_17">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>0</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回首页</string>
+        </property>
+        <property name="hasIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="vpage7">
+      <widget class="QFrame" name="frame_14">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_13">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>730</y>
+         <width>1201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="PrimaryPushButton" name="PrimaryPushButton_18">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>0</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回首页</string>
+        </property>
+        <property name="hasIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="vpage8">
+      <widget class="QFrame" name="frame_15">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>730</y>
+         <width>1201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="PrimaryPushButton" name="PrimaryPushButton_19">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>0</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回首页</string>
+        </property>
+        <property name="hasIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_16">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="vpage9">
+      <widget class="QFrame" name="frame_17">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>730</y>
+         <width>1201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="PrimaryPushButton" name="PrimaryPushButton_20">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>0</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>返回首页</string>
+        </property>
+        <property name="hasIcon" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_18">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>721</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PushButton</class>
+   <extends>QPushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>PrimaryPushButton</class>
+   <extends>PushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>IconWidget</class>
+   <extends>QWidget</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>CardWidget</class>
+   <extends>QFrame</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ElevatedCardWidget</class>
+   <extends>SimpleCardWidget</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SimpleCardWidget</class>
+   <extends>CardWidget</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CaptionLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>StrongBodyLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>SubtitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>TitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>Pivot</class>
+   <extends>QWidget</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>TextEdit</class>
+   <extends>QTextEdit</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>TableWidget</class>
+   <extends>QTableWidget</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

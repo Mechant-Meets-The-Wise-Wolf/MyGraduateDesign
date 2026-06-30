@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Input_First_2_dialog_UI</class>
+ <widget class="QWidget" name="Input_First_2_dialog_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>577</width>
+    <height>229</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="CardWidget" name="CardWidget_155">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>561</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_87">
+    <item row="0" column="0">
+     <widget class="SubtitleLabel" name="SubtitleLabel_658">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>燃烧室燃气绝热指数k_heat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="LineEdit" name="LineEdit_2"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="SubtitleLabel" name="SubtitleLabel_659">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>燃气气体常数R_gU/mol·K)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="LineEdit" name="LineEdit_3"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="LineEdit" name="LineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="SubtitleLabel" name="SubtitleLabel_657">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>燃气流通系数K_c</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CardWidget</class>
+   <extends>QFrame</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SubtitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

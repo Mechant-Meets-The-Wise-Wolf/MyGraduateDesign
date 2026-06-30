@@ -1,0 +1,661 @@
+{
+    "参数一": [
+        {
+            "id": 1,
+            "name": "曲柄连杆半径",
+            "sign": "R",
+            "value": 0.8,
+            "unit": "m"
+        },
+        {
+            "id": 2,
+            "name": "曲柄转角",
+            "sign": "round",
+            "value": 169,
+            "unit": "r/min"
+        },
+        {
+            "id": 3,
+            "name": "连杆长度",
+            "sign": "L",
+            "value": 1.6,
+            "unit": "m"
+        },
+        {
+            "id": 4,
+            "name": "曲柄转角循环周期",
+            "sign": "crankangle",
+            "value": 360,
+            "unit": "°CA"
+        },
+        {
+            "id": 5,
+            "name": "活塞半径",
+            "sign": "R_piston",
+            "value": 0.168,
+            "unit": "m"
+        },
+        {
+            "id": 6,
+            "name": "单缸功率",
+            "sign": "g_power",
+            "value": 920,
+            "unit": "kw"
+        },
+        {
+            "id": 7,
+            "name": "燃烧室燃气绝热指数",
+            "sign": "k_heat",
+            "value": 1.41,
+            "unit": "null"
+        },
+        {
+            "id": 8,
+            "name": "燃气流通系数",
+            "sign": "K_c",
+            "value": 0.65,
+            "unit": "null"
+        },
+        {
+            "id": 9,
+            "name": "燃气气体常数",
+            "sign": "R_g",
+            "value": 287.13,
+            "unit": "U/mol·K"
+        },
+        {
+            "id": 10,
+            "name": "缸套半径",
+            "sign": "BR",
+            "value": 0.17,
+            "unit": "m"
+        },
+        {
+            "id": 11,
+            "name": "缸套表面粗糙度",
+            "sign": "smgia_L",
+            "value": "8e-7.0",
+            "unit": "m"
+        },
+        {
+            "id": 12,
+            "name": "缸套材料的杨氏模量",
+            "sign": "E_L",
+            "value": 200000000000,
+            "unit": "Pa"
+        },
+        {
+            "id": 13,
+            "name": "缸套材料泊松比",
+            "sign": "v_L",
+            "value": 0.3,
+            "unit": "null"
+        },
+        {
+            "id": 14,
+            "name": "注油孔距离下止点的距离",
+            "sign": "position_hole",
+            "value": 1.185,
+            "unit": "m"
+        },
+        {
+            "id": 15,
+            "name": "润滑油供给宽度",
+            "sign": "h_withd",
+            "value": 0.35,
+            "unit": "m"
+        },
+        {
+            "id": 16,
+            "name": "润滑油消耗率",
+            "sign": "g_oil",
+            "value": 2.7,
+            "unit": "g/kW·h"
+        },
+        {
+            "id": 17,
+            "name": "初始润滑油供给厚度",
+            "sign": "h1",
+            "value": 0.000008,
+            "unit": "m"
+        },
+        {
+            "id": 18,
+            "name": "活塞上行时润滑油供给比例",
+            "sign": "pect_up",
+            "value": 1,
+            "unit": "null"
+        }
+    ],
+    "参数二": [
+        {
+            "id": 1,
+            "name": "第一道活塞环槽下沿距离活塞顶面的距离",
+            "sign": "RPH_R1",
+            "value": 0.125,
+            "unit": "m"
+        },
+        {
+            "id": 2,
+            "name": "第一道环岸高度",
+            "sign": "h_land 1",
+            "value": 0.1165,
+            "unit": "m"
+        },
+        {
+            "id": 3,
+            "name": "第一道环槽高度",
+            "sign": "h_groove_1",
+            "value": 0.0095,
+            "unit": "m"
+        },
+        {
+            "id": 4,
+            "name": "第一道环槽高度",
+            "sign": "h_groove_1(m)",
+            "value": 0.15565,
+            "unit": "m"
+        },
+        {
+            "id": 5,
+            "name": "第一道活塞环高度",
+            "sign": "RAH_R1",
+            "value": 0.00943,
+            "unit": "m"
+        },
+        {
+            "id": 6,
+            "name": "第一道活塞环宽度",
+            "sign": "RRW_R1",
+            "value": 0.0125,
+            "unit": "m"
+        },
+        {
+            "id": 7,
+            "name": "第一道活塞环开口间隙",
+            "sign": "gap_R1",
+            "value": 0.0005,
+            "unit": "m"
+        },
+        {
+            "id": 8,
+            "name": "第一道活塞环径向刚度",
+            "sign": "kr_R1",
+            "value": 100000,
+            "unit": "N/m"
+        },
+        {
+            "id": 9,
+            "name": "第一道活塞环半径变化平均值",
+            "sign": "rr_R1",
+            "value": 0.003,
+            "unit": "m"
+        },
+        {
+            "id": 10,
+            "name": "第一道活塞环型线曲率半径",
+            "sign": "PR_R1",
+            "value": 0.6,
+            "unit": "m"
+        },
+        {
+            "id": 11,
+            "name": "第一道活塞环型线圆心高度",
+            "sign": "HO_R1",
+            "value": 0.0032,
+            "unit": "m"
+        },
+        {
+            "id": 12,
+            "name": "第一道活塞环表面粗糙度",
+            "sign": "smgia_R1",
+            "value": "8e-7.0",
+            "unit": "m"
+        },
+        {
+            "id": 13,
+            "name": "第一道活塞环材料杨氏模量",
+            "sign": "E_R1",
+            "value": 200000000000,
+            "unit": "Pa"
+        },
+        {
+            "id": 14,
+            "name": "第一道活塞环材料泊松比",
+            "sign": "v_R1",
+            "value": 0.3,
+            "unit": "null"
+        },
+        {
+            "id": 15,
+            "name": "第一道活塞环与缸套之间的接触摩擦系数",
+            "sign": "cf_R1",
+            "value": 0.08,
+            "unit": "null"
+        },
+        {
+            "id": 16,
+            "name": "第一道活塞环计算节点数",
+            "sign": "n_R1",
+            "value": 200,
+            "unit": "null"
+        },
+        {
+            "id": 17,
+            "name": "第一道活塞环初始油膜厚度",
+            "sign": "h0_R1",
+            "value": 0.000001,
+            "unit": "m"
+        },
+        {
+            "id": 18,
+            "name": "第二道活塞环槽下沿距离活塞顶面的距离",
+            "sign": "RPH_R2",
+            "value": 0.145,
+            "unit": "m"
+        },
+        {
+            "id": 19,
+            "name": "第二道环岸高度",
+            "sign": "h_land_2",
+            "value": 0.012,
+            "unit": "m"
+        },
+        {
+            "id": 20,
+            "name": "第二道环槽高度",
+            "sign": "h_groove_2",
+            "value": 0.008,
+            "unit": "m"
+        },
+        {
+            "id": 21,
+            "name": "第二道环槽内园半径",
+            "sign": "R_groove_in 2",
+            "value": 0.15565,
+            "unit": "m"
+        },
+        {
+            "id": 22,
+            "name": "第二道活塞环高度",
+            "sign": "RAH_R2",
+            "value": 0.0793,
+            "unit": "m"
+        },
+        {
+            "id": 23,
+            "name": "第二道活塞环宽度",
+            "sign": "RRW_R2",
+            "value": 0.0127,
+            "unit": "m"
+        },
+        {
+            "id": 24,
+            "name": "第二道活塞环开口间隙",
+            "sign": "gap_R2",
+            "value": 0.0008,
+            "unit": "m"
+        },
+        {
+            "id": 25,
+            "name": "第二道活塞环径向刚度",
+            "sign": "kr_R2",
+            "value": 100000,
+            "unit": "N/m"
+        },
+        {
+            "id": 26,
+            "name": "第二道活塞环半径变化平均值",
+            "sign": "rr_R2",
+            "value": 0.003,
+            "unit": "m"
+        },
+        {
+            "id": 27,
+            "name": "第二道活塞环型线曲率半径",
+            "sign": "PR_R2",
+            "value": 0.6,
+            "unit": "m"
+        },
+        {
+            "id": 28,
+            "name": "第二道活塞环型线圆心高度",
+            "sign": "HO_R2",
+            "value": 0.003965,
+            "unit": "m"
+        },
+        {
+            "id": 29,
+            "name": "第二道活塞环表面粗糙度",
+            "sign": "smgia_R2",
+            "value": "8e-7.0",
+            "unit": "m"
+        },
+        {
+            "id": 30,
+            "name": "第二道活塞环材料杨氏模量",
+            "sign": "E_R2",
+            "value": 200000000000,
+            "unit": "Pa"
+        },
+        {
+            "id": 31,
+            "name": "第二道活塞环材料泊松比",
+            "sign": "v_R2",
+            "value": 0.3,
+            "unit": "null"
+        },
+        {
+            "id": 32,
+            "name": "第二道活塞环与缸套之间的接触摩擦系数",
+            "sign": "cf_R2",
+            "value": 0.08,
+            "unit": "null"
+        },
+        {
+            "id": 33,
+            "name": "第二道活塞环计算节点数",
+            "sign": "n_R2",
+            "value": 200,
+            "unit": "null"
+        },
+        {
+            "id": 34,
+            "name": "第二道活塞环初始油膜厚度",
+            "sign": "h0_R2",
+            "value": 0.000001,
+            "unit": "m"
+        },
+        {
+            "id": 35,
+            "name": "第三道活塞环槽下沿距离活塞顶面的距离",
+            "sign": "RPH_R3",
+            "value": 0.165,
+            "unit": "m"
+        },
+        {
+            "id": 36,
+            "name": "第三道环岸高度",
+            "sign": "h_land_3",
+            "value": 0.012,
+            "unit": "m"
+        },
+        {
+            "id": 37,
+            "name": "第三道环槽高度",
+            "sign": "h_groove_3",
+            "value": 0.008,
+            "unit": "m"
+        },
+        {
+            "id": 38,
+            "name": "第三道环槽内圆半径",
+            "sign": "R_groove_in_3",
+            "value": 0.15565,
+            "unit": "m"
+        },
+        {
+            "id": 39,
+            "name": "第三道活塞环高度",
+            "sign": "RAH_R3",
+            "value": 0.00793,
+            "unit": "m"
+        },
+        {
+            "id": 40,
+            "name": "第三道活塞环开口间隙",
+            "sign": "gap_R3",
+            "value": 0.0008,
+            "unit": "m"
+        },
+        {
+            "id": 41,
+            "name": "第三道活塞环径向刚度",
+            "sign": "kr_R3",
+            "value": 100000,
+            "unit": "N/m"
+        },
+        {
+            "id": 42,
+            "name": "第三道活塞环半径变化平均值",
+            "sign": "rr_R3",
+            "value": 0.003,
+            "unit": "m"
+        },
+        {
+            "id": 43,
+            "name": "第三道活塞环型线曲率半径",
+            "sign": "PR_R3",
+            "value": 0.6,
+            "unit": "m"
+        },
+        {
+            "id": 44,
+            "name": "第三道活塞环型线园心高度",
+            "sign": "HO_R3",
+            "value": 0.003965,
+            "unit": "m"
+        },
+        {
+            "id": 45,
+            "name": "第三道活塞环材料杨氏模量",
+            "sign": "E_R3",
+            "value": 200000000000,
+            "unit": "Pa"
+        },
+        {
+            "id": 46,
+            "name": "第三道活塞环材料泊松比",
+            "sign": "v_R3",
+            "value": 0.3,
+            "unit": "null"
+        },
+        {
+            "id": 47,
+            "name": "第三道活塞环与缸套之间的接触摩擦系数",
+            "sign": "cf_R3",
+            "value": 0.08,
+            "unit": "null"
+        },
+        {
+            "id": 48,
+            "name": "第三道活塞环计算节点数",
+            "sign": "n_R3",
+            "value": 200,
+            "unit": "null"
+        },
+        {
+            "id": 49,
+            "name": "第三道活塞环初始油膜厚度",
+            "sign": "h0_R3",
+            "value": 0.000001,
+            "unit": "m"
+        }
+    ],
+    "参数三": [
+        {
+            "id": 1,
+            "name": "润滑油粘压系数",
+            "sign": "alpha",
+            "value": 2.2e-8,
+            "unit": "null"
+        },
+        {
+            "id": 2,
+            "name": "润滑油粘度",
+            "sign": "mu",
+            "value": 0.0112,
+            "unit": "Pa·s"
+        },
+        {
+            "id": 3,
+            "name": "润滑油系数A ",
+            "sign": "mu_A",
+            "value": 19.9538,
+            "unit": "null"
+        },
+        {
+            "id": 4,
+            "name": "润滑油系数B ",
+            "sign": "mu_B",
+            "value": 3.1824,
+            "unit": "null"
+        },
+        {
+            "id": 5,
+            "name": "润滑油密度",
+            "sign": "rho",
+            "value": 858.8,
+            "unit": "kg/s"
+        },
+        {
+            "id": 6,
+            "name": "润滑油是否有固体颗粒？",
+            "sign": "isoil_csp",
+            "value": false,
+            "unit": "null"
+        },
+        {
+            "id": 7,
+            "name": "润滑油中固体颗粒所含比例",
+            "sign": "lambda",
+            "value": 0.03,
+            "unit": "null"
+        },
+        {
+            "id": 8,
+            "name": "固体颗粒密度",
+            "sign": "rho_p",
+            "value": 7500,
+            "unit": "kg/s"
+        },
+        {
+            "id": 9,
+            "name": "固体颗粒当量直径",
+            "sign": "dd",
+            "value": 0.000003,
+            "unit": "m"
+        },
+        {
+            "id": 10,
+            "name": "固体颗粒材料抗拉强度",
+            "sign": "Y_p",
+            "value": 600000000,
+            "unit": "Pa"
+        },
+        {
+            "id": 11,
+            "name": "固体颗粒材料泊松比",
+            "sign": "v_P",
+            "value": 0.3,
+            "unit": "null"
+        },
+        {
+            "id": 12,
+            "name": "固体颗粒材料杨氏模量",
+            "sign": "EP",
+            "value": 23000000000,
+            "unit": "Pa"
+        },
+        {
+            "id": 13,
+            "name": "固体颗粒与第一道活塞环之间的摩擦系数",
+            "sign": "cf_p_R1",
+            "value": 0.1,
+            "unit": "null"
+        },
+        {
+            "id": 14,
+            "name": "固体颗粒与第一道活塞环之间的摩擦系数",
+            "sign": "cf_p_R2",
+            "value": 0.1,
+            "unit": "null"
+        },
+        {
+            "id": 15,
+            "name": "固体颗粒与第一道活塞环之间的摩擦系数",
+            "sign": "cf_p_R3",
+            "value": 0.1,
+            "unit": "null"
+        }
+    ],
+    "参数四": [
+        {
+            "id": 1,
+            "name": "第一道活塞环松弛迭代系数",
+            "sign": "omega_1",
+            "value": 2,
+            "unit": "null"
+        },
+        {
+            "id": 2,
+            "name": "第一道活塞环载荷平衡迭代精度",
+            "sign": "err_FRW_limit_1",
+            "value": 0.000001,
+            "unit": "null"
+        },
+        {
+            "id": 3,
+            "name": "第一道活塞环油膜压力迭代精度",
+            "sign": "err_poil_limit_1",
+            "value": 0.000001,
+            "unit": "null"
+        },
+        {
+            "id": 4,
+            "name": "第二道活塞环松弛迭代系数",
+            "sign": "omega_2",
+            "value": 1.2,
+            "unit": "null"
+        },
+        {
+            "id": 5,
+            "name": "第二道活塞环载荷平衡迭代精度",
+            "sign": "err_FRW_limit_2",
+            "value": 0.000001,
+            "unit": "null"
+        },
+        {
+            "id": 6,
+            "name": "第二道活塞环油膜压力迭代精度",
+            "sign": "err_poil_limit_2",
+            "value": 0.000001,
+            "unit": "null"
+        },
+        {
+            "id": 7,
+            "name": "第三道活塞环松弛迭代系数",
+            "sign": "omega_3",
+            "value": 1.2,
+            "unit": "null"
+        },
+        {
+            "id": 8,
+            "name": "第三道活塞环载荷平衡迭代精度",
+            "sign": "err_FRW_limit_3",
+            "value": 0.000001,
+            "unit": "null"
+        },
+        {
+            "id": 9,
+            "name": "第三道活塞环油膜压力迭代精度",
+            "sign": "err_poil_limit_3",
+            "value": 0.000001,
+            "unit": "null"
+        },
+        {
+            "id": 10,
+            "name": "周期循环收敛精度",
+            "sign": "cyc_imit",
+            "value": 0.001,
+            "unit": "null"
+        },
+        {
+            "id": 11,
+            "name": "周期循环限定次数",
+            "sign": "cyc_number",
+            "value": 5,
+            "unit": "null"
+        }
+    ]  
+}

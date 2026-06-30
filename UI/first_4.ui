@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Input_First_4_dialog_UI</class>
+ <widget class="QWidget" name="Input_First_4_dialog_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>618</width>
+    <height>328</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="CardWidget" name="CardWidget_161">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>601</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_91">
+    <item row="4" column="1">
+     <widget class="SubtitleLabel" name="SubtitleLabel_674">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>活塞上行时润滑油供给比例pect_up</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="StrongBodyLabel" name="StrongBodyLabel_32">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>注油孔距离下止点的距离position_hole(m)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="SubtitleLabel" name="SubtitleLabel_672">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>润滑油消耗率g_oil(g/kW·h)
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="SubtitleLabel" name="SubtitleLabel_673">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>初始润滑油供给厚度h1(m)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="SubtitleLabel" name="SubtitleLabel_671">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>润滑油供给宽度h_withd(m)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="LineEdit" name="LineEdit"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="LineEdit" name="LineEdit_2"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="LineEdit" name="LineEdit_3"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="LineEdit" name="LineEdit_4"/>
+    </item>
+    <item row="4" column="2">
+     <widget class="LineEdit" name="LineEdit_5"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CardWidget</class>
+   <extends>QFrame</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StrongBodyLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>SubtitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
